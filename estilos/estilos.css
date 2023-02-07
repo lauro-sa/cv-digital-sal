@@ -361,9 +361,56 @@ body.mododark{
 /* ------------------Responsive------------------ */
 
 
-@media screen and (max-width:1200px){
+@media screen and (max-width:750px){
     
-} 
+	main{
+		width: 300px;
+	}
+
+	.container1{
+		flex-direction: column;
+	}
+
+	.img img{
+		width: 60%;
+	}
+
+	h2{
+		text-align: center;
+		margin-top: 25px;
+		margin-bottom: 10px;
+	}
+
+	.linea{
+		display: none;
+	}
+
+	.descripcion{
+		margin: auto;
+	}
+
+	.datos-1{
+		display: flex;
+		flex-direction: column;
+		text-align:left;
+	}
+
+	.Estudios{
+		display: flex;
+		flex-direction: column;
+		text-align: left;
+	}
+
+	.Estudios a i{
+		margin-right: 15px;
+	}
+
+	.contacto{
+		flex-direction: column;
+		text-align: center;
+	}
+
+}
 
 
 /* ------------------Responsive------------------ */
