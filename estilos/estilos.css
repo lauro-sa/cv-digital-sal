@@ -33,6 +33,9 @@ h2{
 body{
 	background-color: whitesmoke;
 	transition: 500ms;
+
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 /*-------------Boton modo Claro/Oscuro--------------*/
@@ -278,6 +281,14 @@ footer a{
 .contacto{
 	display: flex;
 	justify-content: center;
+}
+
+.saludo{
+
+	color: #565656;
+    text-align: center;
+    padding: 10px 0;
+	padding-top: 0px;
 }
 
 /*-------------footer Fin--------------*/
