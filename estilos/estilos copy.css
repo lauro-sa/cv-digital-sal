@@ -32,14 +32,12 @@ h2{
 
 body{
 	background-color: whitesmoke;
-
-	min-width: 600px;
-
 	transition: 500ms;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	padding: 5px;
+	align-items: center;
+	text-align: center;
+	padding: 25px;
 }
 
 /*-------------Boton modo Claro/Oscuro--------------*/
@@ -519,8 +517,8 @@ body.mododark{
 	}
 
 	.habilidades img{
-		width: 45px;
-		height: 45px;
+		width: 30px;
+		height: 30px;
 		margin: 15px;
 	}
 
