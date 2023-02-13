@@ -39,7 +39,6 @@ body{
 	transition: 500ms;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	padding: 5px;
 
 }
@@ -455,7 +454,7 @@ body.mododark{
 @media screen and (max-width:500px){
     
 	body{
-		background-color: red;
+		*background-color: red;
 	}
 
 	.container1{
